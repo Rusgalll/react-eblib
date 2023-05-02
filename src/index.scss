@@ -1,0 +1,316 @@
+@font-face {
+  font-family: "Mplus 1p";
+  src: local("Mplus 1p"), local("Mplus 1p"),
+    url(../public/fonts/MPLUS1p-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Mplus 1p med";
+  src: local("Mplus 1p med"), local("Mplus 1p med"),
+    url(../public/fonts/MPLUS1p-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"), local("Raleway"),
+    url(../public/fonts/Raleway-Medium.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Mplus 1p", "Raleway", "Mplus 1p med", "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.main-screen-1 {
+  min-width: 50%;
+
+  background: url(../public/img/back.png);
+  background-size: 100% 100%;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  margin: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-screen-1-img {
+  width: 330px;
+  height: 422px;
+  border-radius: 24px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main-screen-1-img:hover {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.name-book {
+  font-family: "Mplus 1p med";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #122947;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.company-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 68px;
+  color: #122947;
+  margin: 5px;
+}
+
+.main-disc {
+  font-family: "Mplus 1p";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+
+  color: #122947;
+}
+
+.main-screen-2 {
+  min-width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.best-books-text {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 70px;
+}
+.slog-1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+
+  color: #122947;
+}
+
+.slog-2 {
+  font-family: "Mplus 1p";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+
+  color: #122947;
+}
+
+.best-books-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.main-screen-2-img {
+  width: 230px;
+  height: 312px;
+  padding: 25px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main-screen-2-img:hover {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+}
+
+.screen_2 {
+  margin-left: 200px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  height: 80%;
+}
+
+.screen_2_img {
+  justify-content: center;
+  img {
+    width: 330px;
+    height: 500px;
+  }
+}
+
+.screen_2_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 400px;
+  padding: 40px;
+  h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 125%;
+
+    color: #122947;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    font-family: "Mplus 1p";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+
+    color: #9a9da0;
+  }
+  h3 {
+    font-family: "Mplus 1p";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+
+    color: #122947;
+    word-break: break-all;
+  }
+}
+.download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #d1d1d1;
+
+    font-family: "Mplus 1p";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #122947;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 200px;
+    height: 40px;
+  }
+  h1 {
+    padding: 10px;
+  }
+}
+.down_btn {
+  margin-top: 20px;
+}
+
+.catalog_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.catalog_main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.catalog_main_text {
+  width: 100%;
+  padding: 30px;
+  padding-bottom: 0;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+
+  color: #122947;
+}
+
+.catalog_cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.catalog_card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  img {
+    width: 270px;
+    height: 380px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  img:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+}
